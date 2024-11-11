@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(197, 250, 232);
+}
+
+h2 {
+    text-align: center;
+    margin-top: 5%;
+}
+
+.keys {
+    display: flex;
+}
+
+button {
+    width: 5%;
+    height: 40vh;
+    margin-top: 5%;
+    margin-left: 1%;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
+
+.keys {
+    margin-left: 20%;
+}
+
+.key-white {
+    background-color: white;
+}
+
+.key-black {
+    background-color: black;
+    color: white;
+}
